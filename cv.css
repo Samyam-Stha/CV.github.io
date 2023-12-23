@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1 {
+  font-size: 35px;
+}
+
+header {
+  box-shadow: 0px 0px 10px;
+  width: 100%;
+}
+#head {
+  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  gap: 40px;
+  font-size: 23px;
+  padding: 10px 40px;
+}
+.logo {
+  flex: 1;
+  width: 120px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.home {
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  border-left: 1px rgb(0, 136, 136) solid;
+  padding-left: 40px;
+}
+.home::after {
+  margin: auto;
+  display: block;
+  content: "";
+  background: transparent;
+  height: 3px;
+  width: 0;
+  transition: width 0.2s ease-in-out, background 0.2s ease-in-out,
+    color 0.2s ease-in-out;
+}
+.home:hover::after {
+  width: 100%;
+  color: cyan;
+  background: cyan;
+}
+
+.infoBox {
+  margin: 35px;
+  display: flex;
+  justify-content: space-between;
+  border: 1px dashed black;
+  gap: 20px;
+}
+.intro{
+  padding: 25px;
+  
+}
+.infoBox div {
+  width: 33%;
+  height: 200px;
+}
+
+.iconBox {
+  justify-content: space-between;
+  display: flex;
+ 
+  margin-top: 20px;
+}
+.iconBox button {
+  background: transparent;
+  height: 40px;
+  border-radius: 50%;
+  margin-left: 15px;
+  border: 1px solid rgb(40, 90, 90);
+  cursor: pointer;
+  
+}
+.iconBox button:hover {
+  background-color: rgb(40, 90, 90);
+  border-color: black;
+  transition: 0.2s ease-in-out;
+}
+
+.iconBox button h2{
+  width: 40px;
+  color: rgb(40, 90, 90);
+}
+.iconBox button h2:hover{
+  color: black;
+  transition: 0.2s ease-in-out;
+}
+
+.certification {
+  background-color: rgb(212, 212, 212);
+  height: 320px;
+  text-align: center;
+  box-shadow: 0px 0px 10px;
+}
+.certiBox {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
+  padding: 0px 25px;
+}
+.certiBox div {
+  width: 28%;
+  height: 220px;
+}
+.certiBox div a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
