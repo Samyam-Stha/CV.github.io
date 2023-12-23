@@ -51,17 +51,24 @@ a {
   color: cyan;
   background: cyan;
 }
+span{
+  color:#4169e1
+}
+
 
 .infoBox {
   margin: 35px;
   display: flex;
   justify-content: space-between;
-  border: 1px dashed black;
+ 
   gap: 20px;
 }
 .intro{
   padding: 25px;
   
+}
+.intro p{
+  margin-left: 15px;
 }
 .infoBox div {
   width: 33%;
@@ -75,28 +82,32 @@ a {
   margin-top: 20px;
 }
 .iconBox button {
+  color: #4169e1;
+  font-size: 20px;
   background: transparent;
   height: 40px;
+  padding: 0px 10px;
   border-radius: 50%;
   margin-left: 15px;
-  border: 1px solid rgb(40, 90, 90);
+  border: 1px solid #4169e1;
   cursor: pointer;
   
 }
 .iconBox button:hover {
-  background-color: rgb(40, 90, 90);
-  border-color: black;
-  transition: 0.2s ease-in-out;
-}
-
-.iconBox button h2{
-  width: 40px;
-  color: rgb(40, 90, 90);
-}
-.iconBox button h2:hover{
+  background-color: #5d81f0;
+  box-shadow: 0px 0px 7px 5px  #5d81f0;
+  border-color:  #5d81f0;
   color: black;
   transition: 0.2s ease-in-out;
 }
+
+.aboutMe{
+  padding: 25px;
+  font-size: 19px;
+  text-align: justify;
+}
+
+
 
 .certification {
   background-color: rgb(212, 212, 212);
