@@ -2,6 +2,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: signika
+  ;
+  
 }
 h1 {
   font-size: 35px;
@@ -48,8 +51,8 @@ a {
 }
 .home:hover::after {
   width: 100%;
-  color: cyan;
-  background: cyan;
+  color: #4169e1;
+  background: #4169e1;
 }
 span{
   color:#4169e1
@@ -108,14 +111,21 @@ span{
 }
 
 
+ul p{
+ margin-bottom: 13px;
+}
+
 
 .certification {
   background-color: rgb(212, 212, 212);
-  height: 320px;
+  height: 380px;
   text-align: center;
   box-shadow: 0px 0px 10px;
+  margin-bottom: 50px;
+  padding: 25px;
 }
 .certiBox {
+  margin-top: 20px;
   display: flex;
   justify-content: space-evenly;
   gap: 20px;
@@ -132,4 +142,14 @@ span{
 img {
   width: 100%;
   height: 100%;
+}
+
+.moreInfo{
+  display: flex;
+  justify-content: space-around;
+}
+
+
+footer{
+  margin: 50px 0px;
 }
